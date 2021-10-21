@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 /**
  * 经典快排
+ * 思想：基于分治思想，
+ * 1选出一个基准值pivot，自己一般喜欢选取最右边的数为基准值
+ * 2将小于基准值pivot的放左边，大于基准值pivot的放右边，这就是所谓的分区
  */
 public class QuickSort {
 

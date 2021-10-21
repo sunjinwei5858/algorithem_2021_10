@@ -13,7 +13,7 @@ public class InserSort {
         // 外层循环：从1开始即可
         // 内存循环：不断从后往前看 第一个元素无需看了
         for (int i = 1; i < nums.length; i++) {
-            for (int j = i; j > 0; j++) {
+            for (int j = i; j > 0; j--) {
                 // 从后往前进行比较 两两比较
                 if (nums[j - 1] > nums[j]) {
                     swap(nums, j - 1, j);

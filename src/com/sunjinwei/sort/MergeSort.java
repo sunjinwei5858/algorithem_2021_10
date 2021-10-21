@@ -2,6 +2,8 @@ package com.sunjinwei.sort;
 
 /**
  * 归并排序
+ * 思想：其实就是后序遍历
+ * 时间复杂度 nlogn，空间复杂度 o(n) 稳定的排序
  */
 public class MergeSort {
 
